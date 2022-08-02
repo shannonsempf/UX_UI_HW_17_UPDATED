@@ -1,0 +1,194 @@
+
+
+* {box-sizing: border-box;
+
+}
+
+Html{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+}
+
+
+
+
+.Header_Navigation {
+    Height: 120px;
+    background-color: black;
+    color: white;
+    font-family: "Inter","Anek Latin", Sans-Serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    Width: 100%;
+    Display: Grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+
+}
+
+
+.Work {
+    grid-column: 2 / 3;
+    Height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.About {
+    grid-column: 3 / 4;
+    Height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.Contact  {
+    grid-column: 4 / 5;
+    Height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.Resume {
+    grid-column: 5 / 6;
+    Height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: Start;
+}
+
+
+.Logo {
+    grid-column: 11/12;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: Center;
+}
+
+
+.Header_content {
+    Display: Grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1;
+    background-color: black;
+    Height: 800px;
+}
+
+.Hero_Text_Container {
+    grid-column: 2 / 7;
+    grid-row: 1;
+    Height: 100%;
+    Display: flex;
+    align-items: right;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+
+.Hero_Image_Container {
+    grid-column: 7/ 12;
+    grid-row: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero_Image {
+    Height: 500px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(50%);
+}
+
+
+H1 {
+    Color: white;
+    font-family: "Lora","Baskerville", Serif;
+    font-size: 5rem;
+    font-weight: 50;
+
+   
+}
+
+H2 {
+    Color: white;
+    font-family: "Lora","Baskerville", Serif;
+    font-size: 60px;
+    max-height: 50%;
+ 
+}
+
+
+
+
+P{
+    color: white;
+    font-family:"Public Sans",'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    Max-Height: 50%;
+    
+}
+
+.Logo {
+    color: white;
+    background-color: black;
+    font-family: "Lora","Baskerville", Serif;
+    font-size: 50px;
+}
+
+.Footer_Navigation {
+    background-color: black;
+    color: white;
+    font-family: "Inter","Anek Latin", Sans-Serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    Display: Grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    Height:160Px;
+    border-color: white;
+}
+
+.Work_Footer {
+    grid-column: 2 / 3;
+    Height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.About_Footer {
+    grid-column: 3 / 4;
+    Height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.Contact_Footer {
+    grid-column: 4 / 5;
+    Height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: Start;
+}
+
+.Resume_Footer {
+    grid-column: 5 / 6;
+    Height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+
